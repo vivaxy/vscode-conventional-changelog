@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.23.0](https://github.com/vivaxy/vscode-conventional-commits/compare/v1.22.0...v1.23.0) (2021-08-29)
+
+### Features
+
+- :sparkles: add confirm button ([fcbe20d](https://github.com/vivaxy/vscode-conventional-commits/commit/fcbe20daca91336d19ee3e6b0573f402cac398b5)), closes [#155](https://github.com/vivaxy/vscode-conventional-commits/issues/155)
+
 ## [1.22.0](https://github.com/vivaxy/vscode-conventional-commits/compare/v1.21.3...v1.22.0) (2021-08-27)
 
 ### Features
