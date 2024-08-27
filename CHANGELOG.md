@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.27.0](https://github.com/vivaxy/vscode-conventional-commits/compare/v1.25.0...v1.27.0) (2024-08-27)
+
+### Features
+
+- :globe_with_meridians: Update locale ([d1d332a](https://github.com/vivaxy/vscode-conventional-commits/commit/d1d332a9b2b4b292123af141ecdbf1a6d766c13a))
+- :sparkles: implement setting to store scopes in user settings instead of workspace settings ([8cb64b7](https://github.com/vivaxy/vscode-conventional-commits/commit/8cb64b79a4cc777b70bb32fbbd7ee464f9ba44ad))
+
 ## [1.26.0](https://github.com/vivaxy/vscode-conventional-commits/compare/v1.25.0...v1.26.0) (2024-06-29)
 
 ### Features
