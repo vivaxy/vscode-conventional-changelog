@@ -56,7 +56,7 @@ jobs:
         run: yarn build
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3.1.1
+        uses: actions/upload-artifact@v3.2.1
         with:
           name: ${{steps.version.outputs.repo}}-${{steps.version.outputs.beta}}.vsix
           path: "*.vsix"
@@ -99,7 +99,7 @@ jobs:
           printf "[summary](${{env.WORKFLOW_URL}}#annotations). 😥" >> ./pr/comment
 
       - name: Upload the PR information
-        uses: actions/upload-artifact@v3.1.1
+        uses: actions/upload-artifact@v3.2.1
         if: ${{ github.event_name == 'pull_request' }}
         with:
           name: pr
