@@ -78,7 +78,7 @@ jobs:
 
       - name: Get changelog context
         id: changelog_reader
-        uses: mindsers/changelog-reader-action@v2.2.2
+        uses: mindsers/changelog-reader-action@v2.2.3
         with:
           version: ${{steps.version.outputs.version}}
           path: ./CHANGELOG.md
